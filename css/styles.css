@@ -69,24 +69,7 @@ todos los elementos */
 
 
 
-/* ● Font: https://fonts.google.com/specimen/Lato
-Importar las versiones normal (400) y bold (700).   ok
-● Colores:
-Fondo general: #fbfbfb  ok
-Fondo botón y footer: #af599e  ok
-Fondo de “Hablemos…” en sección contacto:
-rgba(175, 89, 158, 0.3) Textos: #0f0f0f
-Texto botón y footer: #fbfbfb  ok
 
-
-
-● Tamaños de texto:
-Tamaño de texto general: 18px
-Tamaño texto botón: 20px
-Título principal: 36px
-Títulos secundarios: 28px
-● Interlineado 1.2
-● Deben aplicar flexbox para alinear y distribuir los elemento */
 
 #header{
     height: 90px;
@@ -95,6 +78,9 @@ Títulos secundarios: 28px
     position: fixed;
     border-bottom-style: ridge;
     color:  #0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
     
     
 
@@ -105,6 +91,8 @@ Títulos secundarios: 28px
     background-color: #fbfbfb;
     font-family: 'Lato', sans-serif;
     color:  #0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
 
 }
 
@@ -113,8 +101,25 @@ footer{
     background-color: #af599e;
     text-align: center;
     color:  #fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
 
 }
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.espaciado{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 
 section{
     min-height: 100vh;
@@ -162,9 +167,7 @@ nav ul li {
 
 }
 
-#inicio{
-    line-height: 1.2;
-}
+
 
 
 
@@ -172,10 +175,15 @@ nav ul li {
     background-color: #af599e;
     border-radius: 30px 30px 30px 30px;
     height: 40px;
-    width: 120px;
+    width: 180px;
     color: #fbfbfb;
+    font-size: 20px;
     
     
+}
+
+#contacto{
+    margin-top: 150px;
 }
 
 #hablemos{
@@ -184,6 +192,12 @@ nav ul li {
     color: #0f0f0f;
     text-align: center;
     line-height: 1.2;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    padding-top: 100px;
+    
     
     
 }
